@@ -3,6 +3,7 @@ PATH
   specs:
     m (0.0.1)
       method_source (~> 0.6.7)
+      yard (~> 0.7.4)
 
 GEM
   remote: https://rubygems.org/
@@ -16,6 +17,7 @@ GEM
     ruby_parser (2.3.1)
       sexp_processor (~> 3.0)
     sexp_processor (3.0.9)
+    yard (0.7.4)
 
 PLATFORMS
   ruby

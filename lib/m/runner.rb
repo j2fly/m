@@ -25,6 +25,7 @@ module M
     def suites
       $:.unshift "./test"
       load @file
+      YARD.parse @file
       Test::Unit::TestCase.test_suites.inject({}) do |suites, suite_class|
         suites[suite_class] = suite_class.test_methods unless suite_class.test_methods.empty?
         suites
